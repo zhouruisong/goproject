@@ -1,0 +1,21 @@
+{
+    "log_path": "/usr/local/sandai/cluster_sync/logs",
+    "mysql_dsn": "root:123456@tcp(localhost:3306)/live_master",
+    "mysql_dsn_task": "root:123456@tcp(localhost:3306)/upload_task",
+    "listen_port": 3000,
+    "tracker_server": ["192.168.110.34:22122"],
+    "fdfs_min_connection_count": 1,
+    "fdfs_max_connection_count": 5,
+    "tair_client": "127.0.0.1:28080",
+    "tair_server": ["192.168.110.34:5198","192.168.110.120:5198"],
+    "lastidfile": "/usr/local/sandai/cluster_sync/record",
+    "interval": 10,
+    "sync_start_time": "00:00",
+    "sync_end_time": "23:59",
+    "upload_server": "127.0.0.1:10088",
+    "fdfs_standby_ip": "192.168.110.219:3000",
+    "pipe_len": 9999,
+    "open_sync": 0,
+    "restart_flag": 0,
+    "es_server": ["http://192.168.110.34:9200"]
+}

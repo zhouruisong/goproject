@@ -1,0 +1,19 @@
+{
+    "log_path": "/usr/local/sandai/cluster_backup/logs",
+    "mysql_dsn": "root:123456@tcp(localhost:3306)/live_master",
+    "mysql_ip": "192.168.110.30",
+    "mysql_username": "root",
+    "mysql_password": "123456",
+    "mysql_port": 3306,
+    "mysql_standby_list": "192.168.110.120",
+    "listen_port": 3000,
+    "tracker_server": ["192.168.110.30:22122"],
+    "fdfs_min_connection_count": 1,
+    "fdfs_max_connection_count": 5,
+    "tair_client": "127.0.0.1:28080",
+    "tair_server": ["192.168.110.30:5198","192.168.110.120:5198"],
+    "server_Id": 1,
+    "each_sync_num": 200,
+    "dbconns": 200,
+    "dbidle": 100
+}

@@ -1,0 +1,8 @@
+{
+	"log_path": "/usr/local/sandai/grouptest/logs",
+	"listen_port": 3000,
+	"tracker_server": ["10.33.17.97:22122"],
+	"fdfs_min_connection_count": 1,
+	"fdfs_max_connection_count": 5,
+	"cache_ip_list":["10.33.17.97","10.33.17.96","10.33.17.98","10.33.17.175","10.33.17.176"]
+}

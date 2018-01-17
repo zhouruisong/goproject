@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"> 
+	<title>Fastdfs Monitor Platform</title>
+   <script src="./jquery-3.0.0.js"></script>
+   <script src="./bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./info.css">
+   <link rel="stylesheet" type="text/css" href="./table.css">
+   <script src="./function.js"></script>
+
+</head>
+<body onload="Init()">
+
+<nav class="navbar navbar-inner" role="navigation">
+<!-- 		<a class="navbar-brand" href="#">导航栏</a> -->
+<div class="navbar navbar-duomi navbar-static-top" role="navigation">
+  <div class="container-fluid">
+      <div class="navbar-header">
+          <a class="navbar-brand" href="#" id="logo">Fastdfs Monitor Platform
+          </a>
+      </div>
+<!--       <div class="navbar-header">
+          <a class="navbar-brand" style="float:right" href="#" id="logout" onclick="logout()">登出</a>
+      </div>
+      <div class="navbar-header">
+          <a class="navbar-brand" style="float:right" href="#" id="login" onclick="login()">登录</a>
+      </div> -->
+  </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2">
+            <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
+                <li class="active">
+                    <a href="#">
+                        <i class="glyphicon glyphicon-th-large"></i>
+                        首页         
+                    </a>
+                </li>
+<!--                 <li>
+                    <a href="#systemSetting" class="nav-header collapsed" data-toggle="collapse" onclick="showNodeForm(this)">
+                        <i class="glyphicon glyphicon-cog"></i>
+                        系统管理
+                           <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul id="systemSetting" class="nav nav-list collapse secondmenu" style="height: 0px;" onclick="showNodeForm(this)">
+                        <li><a href="#"><i class="glyphicon glyphicon-user"></i>用户管理</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-th-list"></i>菜单管理</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>角色管理</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-edit"></i>修改密码</a></li>
+                        <li><a href="#"><i class="glyphicon glyphicon-eye-open"></i>日志查看</a></li>
+                    </ul>
+                </li> -->
+                <li>
+                    <a href="#" id="selectA" class="glyphicon glyphicon-credit-card" onclick="showNodeForm(this)">
+                        上传机管理        
+                    </a>
+                </li>
+
+                  <li>
+                    <a href="#" id="selectRA" class="glyphicon glyphicon-credit-card" onclick="showNodeForm(this)">
+                        上传节点管理
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" id="static" class="glyphicon glyphicon-calendar" onclick="showNodeForm(this)">
+                        图表统计
+                    </a>
+                </li>
+
+<!--                 <li>
+                    <a href="#">
+                        <i class="glyphicon glyphicon-fire"></i>
+                        关于系统
+                    </a>
+                </li> -->
+
+            </ul>
+        </div>
+        <div class="col-md-9">
+<!--               主窗口 -->
+               <!-- 搜索区域 -->
+                <div id="showsearch" class="row" style="padding-bottom: 20px;margin-top:30px;margin-left:2px;display:none">
+                <!-- 搜索框的长度为该行的3/4 -->
+                <div class="col-md-3">
+                 <div class="input-group">
+                  <input id="searchStringID" type="text" style="height:35px;" class="form-control" placeholder="请输入nodenumber">
+                  <span  class="input-group-btn">
+                        <button id="serach" type="button" class="btn btn-info" onclick="search(this)">
+                    <span class="glyphicon glyphicon-search" aria-hidden="true"/>Search
+                    </button>
+                    <button id="Add" type="button" class="btn btn-info" style="margin-left:10px" onclick="Add()">Add</button>
+                  </span>
+                </div>
+                </div>
+               </div>
+
+                <!-- 图表统计 -->
+                <object id="showstatic" style="display:none;width:1800px;height:1800px" type="text/x-scriptlet" data="./static/echartTest.html"></object>
+               <!-- 表格显示 -->
+                <div id="showtableup"class="row" style="margin-right:1px;padding-bottom:1px;margin-top:20px;display:none">
+                <div class="col-md-12" style="margin-top:1px;">
+                 <div class="panel panel-info">
+                  <div class="panel-heading">UploadServer</div>
+                   <table id="tableup" class="table table-bordered table-hover table-condensed datatable">
+                    <thead id="temup">
+                     <th>nodenumber</th>
+                     <th>act</th>
+                     <th>dispatchstatus</th>
+                     <th>ip</th>
+                     <th>explain</th>
+                     <th colspan="2">操作</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                   </table>
+                 </div>
+                </div>
+               </div>
+
+               <!-- 表格显示 -->
+                <div id="showtablenode"class="row" style="margin-right:1px;padding-bottom:1px;margin-top:20px;display:none">
+                <div class="col-md-12" style="margin-top:1px;">
+                 <div class="panel panel-info">
+                  <div class="panel-heading">UploadNode</div>
+                   <table id="tablenode" class="table table-bordered table-hover table-condensed datatable">
+                    <thead id="temnode">
+                     <th>nodenumber</th>
+                     <th>cdnnodeid</th>
+                     <th>type</th>
+                     <th>ip</th>
+                     <th>nodename</th>
+                     <th>explain</th>
+                     <th colspan="2">操作</th>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                   </table>
+                 </div>
+                </div>
+               </div>
+
+               <!-- 分页管理 -->
+              <ul id="page" class="pagination" style="float:left">
+              </ul><br>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+</body>
+</html>

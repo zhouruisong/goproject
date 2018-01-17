@@ -1,0 +1,58 @@
+#!/bin/sh -e
+
+TRACKER_NGINX_IP="192.168.110.8"
+TAIR_CONFIGURE_IP="192.168.110.8"
+TAIR_CONFIGURE_IP1="192.168.110.120"
+TAIR_CONFIGURE_PORT=5198
+TAIR_CLIENT_PORT=28080
+
+if [ $# -ne 3 ]
+then
+        echo "Error: enter error "
+        echo "For example:$0 start_num  end_num flag"
+        exit
+fi
+
+START_NUM=$1
+END_NUM=$2
+
+FILE_FLAG=$3
+
+#M3U8_FILE=1
+
+
+#M3U8_ADDR="2ap"
+
+
+CUR_TIME=`date +%s`
+
+SUCCESS_FLAG=0
+FAIL_FLAG=0
+
+>coral_write_error_ret
+date
+for ((i=$START_NUM;i<=$END_NUM;i++))
+do
+        M3U8_FILE=$i
+M3U8_ADDR="${i}${FILE_FLAG}"
+        CURL_PUT="\"command\":\"pput\",\"server_addr\":\"${TAIR_CONFIGURE_IP}:${TAIR_CONFIGURE_PORT},${TAIR_CONFIGURE_IP1}:${TAIR_CONFIGURE_PORT}\",\"group_name\":\"group_1\",\"keys\":[{\"prefix\":\"test.com\",\"key\":\"${M3U8_FILE}\",\"value\":\"${M3U8_ADDR}\",\"createtime\":${CUR_TIME},\"expiretime\":7776000}]"
+
+#       CURL_GET="\"command\":\"pget\",\"server_addr\":\"${TAIR_CONFIGURE_IP}:${TAIR_CONFIGURE_PORT},${TAIR_CONFIGURE_IP1}:${TAIR_CONFIGURE_PORT}\",\"group_name\":\"group_1\",\"keys\":[{\"prefix\":\"test.com\",\"key\":\"${M3U8_FILE}\"}]"
+
+
+        TEMP=`curl http://127.0.0.1:${TAIR_CLIENT_PORT}/tair -v -s -d"{${CURL_PUT}}"  2>&1| grep "< HTTP/1.1" | awk -F "HTTP/1.1" '{print $2}'`
+        if [ "${TEMP:0:7}" == " 200 OK" ]
+        then
+		let SUCCESS_FLAG+=1
+                #echo "send success"
+        else
+		let FAIL_FLAG+=1
+		echo "$TEMP">>coral_write_error_ret
+                #echo "send fail"
+        fi
+        #echo "TEMP=a${TEMP}b"
+#       curl http://127.0.0.1:${TAIR_CLIENT_PORT}/tair -s -d"{${CURL_GET}}" | grep value
+done
+
+echo "success:$SUCCESS_FLAG  fail:$FAIL_FLAG"
+date

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Panel - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="./themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="./themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="./demo.css">
+    <script type="text/javascript" src="./echarts.js"></script>
+    <script type="text/javascript" src="./jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="./jquery.easyui.min.js"></script>
+</head>
+<body>
+<div class="row" style="padding-bottom: 20px;margin-top:20px;margin-left:250px;display:none"></div>
+<table>
+    <tr>
+        <td>Start Date:
+        </td>
+        <td>
+            <input id="st" class="easyui-datebox" style="width:100px" validType="beyondValid['#st']"/>
+        </td>
+        <td>End Date:
+        </td>
+        <td>
+            <input id="et" class="easyui-datebox" style="width:100px" validType="dateValid['#st']"/>
+        </td>
+        <td>
+            <a href="#" class="easyui-linkbutton" onclick="showVolume()">容量统计</a>
+        </td>
+        <td>
+            <a href="#" class="easyui-linkbutton" onclick="showAdded()">增量统计</a>
+        </td>
+        <td>
+            <a href="#" class="easyui-linkbutton" onclick="showAll()">总量统计</a>
+        </td>
+    </tr>
+</table>
+<div>
+    <table>
+        <tr>
+            <td>
+                <a href="#" id="buttonhide" onclick="hideall()">全部收起</a>
+            </td>
+            <td>
+                <a href="#" id="buttonshow" onclick="showall()">全部显示</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script>
+
+    var area_map = {
+        "19": "北京亦庄2",
+        "21": "北京亦庄3",
+        "207": "宁波电信2",
+        "209": "广州电信2",
+        "213": "广州电信3",
+        "308": "廊坊联通",
+        "210": "西安电信",
+        "309": "太原联通2",
+        "211": "临安电信",
+        "310": "沈阳联通",
+        "208": "南京电信2",
+        "902": "香港和记",
+        "903": "香港PCCW",
+        "911": "美国华盛顿",
+        "912": "美国洛杉矶",
+        "920": "巴黎电讯"
+    }
+
+    function hideall() {
+        for (var node_id in area_map) {
+            $("#" + node_id).hide(100);
+        }
+    }
+
+    function showall() {
+        for (var node_id in area_map) {
+            $("#" + node_id).show(600);
+        }
+    }
+
+    function change(id) {
+        $("#" + id).toggle(600);
+    }
+
+    function checkDate(num) {
+        var numstr = "";
+        if(num < 0){
+            numstr = "0" + num;
+        }
+        else {
+            numstr = "" + num;
+        }
+        return numstr;
+    }
+
+    $(function () {
+
+                $("#buttonhide").hide();
+                $("#buttonshow").hide();
+                var now = new Date();
+                var yes = new Date(new Date().setDate(now.getDate() - 1));
+
+                var yy = yes.getFullYear();
+                var yM = checkDate(yes.getMonth() + 1);
+                var yd = checkDate(yes.getDate());
+
+                var week = new Date(new Date().setDate(now.getDate() - 8));
+                var wy = week.getFullYear();
+                var wM = checkDate(week.getMonth() + 1);
+                var wd = checkDate(week.getDate());
+
+                var yesstr = yM + "/" + yd + "/" + yy;
+                var weekstr = wM + "/" + wd + "/" + wy;
+
+
+                $('#st').datebox('setValue', weekstr);
+                $('#et').datebox('setValue', yesstr);
+                var allStaticDiv = document.createElement("div");
+                allStaticDiv.setAttribute("id", "all_added");
+                allStaticDiv.style.height = "800px";
+                document.body.appendChild(allStaticDiv);
+
+                var allAddedDiv = document.createElement("div");
+                allAddedDiv.setAttribute("id", "added_bar");
+                allAddedDiv.style.height = "400px";
+                allStaticDiv.appendChild(allAddedDiv);
+
+                var allPieDiv = document.createElement("div");
+                allPieDiv.setAttribute("id", "added_pie");
+                allPieDiv.style.height = "400px";
+                allStaticDiv.appendChild(allPieDiv);
+
+                var allChartDiv = document.createElement("div");
+                document.body.appendChild(allChartDiv);
+                //建立div
+                for (var node_id in area_map) {
+                    var table = document.createElement("table");
+                    var tr1 = document.createElement("tr");
+                    var td1 = document.createElement("td");
+                    var tr2 = document.createElement("tr");
+                    var td2 = document.createElement("td");
+
+                    var button = document.createElement("input");
+                    button.setAttribute("id", "button" + node_id);
+                    button.setAttribute("name", node_id);
+                    button.setAttribute("value", area_map[node_id]);
+                    button.setAttribute("type", "button");
+                    button.setAttribute("onclick", "change('" + node_id + "')");
+
+                    var chart_div = document.createElement("div");
+                    chart_div.setAttribute("id", node_id);
+                    chart_div.style.width = "1000px";
+                    chart_div.style.height = "400px";
+                    allChartDiv.appendChild(table);
+                    table.appendChild(tr1);
+                    tr1.appendChild(td1);
+                    td1.appendChild(button);
+                    table.appendChild(tr2);
+                    tr2.appendChild(td2);
+                    td2.appendChild(chart_div);
+
+                    //allChartDiv.appendChild(button);
+                    //allChartDiv.appendChild(chart_div);
+                    $("all_added").hide();
+                    $("#" + node_id).hide();
+                    $("#button" + node_id).hide();
+
+                }
+                showAll();
+            }
+    )
+
+    var url = "";
+
+    var ip = window.location.host;
+    var port = window.location.port;
+    // console.log(port);
+    if (port.length == 0) {
+        url = "http://" + ip + ":" + "80" + "/volumeData";
+    } else {
+        url = "http://" + ip + ":" + port + "/volumeData";
+    }
+
+    // var url = "http://10.75.145.178:80/volumeData";
+
+    function showVolume() {
+        $("#all_added").hide();
+        var stime = $('#st').datebox('getValue');
+        var etime = $('#et').datebox('getValue');
+        if (stime == "" || etime == "") {
+            alert("hehe,添下日期亲");
+            return;
+        }
+        var stimestamp = $.fn.datebox.defaults.parser(stime).getTime();
+        var etimestamp = $.fn.datebox.defaults.parser(etime).getTime();
+        var dataurl = url + "?" + "st=" + stimestamp + "&et=" + etimestamp;
+        var timestampArray = [];
+        var date = new Date();
+        for (var i = stimestamp; i <= etimestamp; i = i + 86400000) {
+            date.setTime(i);
+            timestampArray.push(date.toLocaleDateString());
+        }
+
+        // console.log(dataurl);
+
+        $.ajax({
+            url: dataurl,
+            type: 'get',
+            success: function (data) {
+                $("#buttonhide").show();
+                $("#buttonshow").show();
+                // console.log(data);
+                var JSON = $.parseJSON(data);
+                for (var node_id in area_map) {
+                    $("#" + node_id).show();
+                    $("#button" + node_id).show();
+                    var area_name = area_map[node_id];
+                    var nodeInfoJSON = JSON[node_id];
+                    var finalUsedArray = [];
+                    var totalUsedArray = [];
+                    var resultJSONArray = nodeInfoJSON["resultSet"];
+                    for (var index in resultJSONArray) {
+                        var resultJSON = resultJSONArray[index];
+                        finalUsedArray.push(resultJSON["finalUsed"])
+                        totalUsedArray.push(resultJSON["totalUsed"])
+                    }
+
+                    var cptotalArray = totalUsedArray.concat();
+                    cptotalArray.sort(function (a, b) {
+                        return b - a;
+                    });
+
+                    var max_yAxis_ratio = cptotalArray[0] / 100 / 1000 / 1000 / 1000 / 1000;
+                    var max_yAxis_ratio2 = Math.ceil(Math.ceil(max_yAxis_ratio) / 10);
+                    var internal_yAxis;
+                    if (max_yAxis_ratio2 > 1) {
+                        internal_yAxis = max_yAxis_ratio2 * 200 * 1000 * 1000 * 1000 * 1000;
+                    }
+                    else {
+                        internal_yAxis = max_yAxis_ratio * 20 * 1000 * 1000 * 1000 * 1000;
+                    }
+                    var max_yAxis = internal_yAxis * 5;
+
+                    var target_chart = echarts.init(document.getElementById(node_id));
+                    // 指定图表的配置项和数据
+                    var option = {
+                        title: {
+                            text: area_name
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['存储使用量', '存储总量']
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: timestampArray
+                        },
+                        yAxis: [
+                            {
+                                type: 'value',
+                                name: '容量',
+                                min: 0,
+                                max: Math.floor(max_yAxis),
+                                internal: internal_yAxis,
+                                axisLabel: {
+                                    formatter: function (value) {
+                                        var fmtValue = value / 1000 / 1000 / 1000 / 1000;
+                                        return Math.floor(fmtValue) + "TB";
+                                    }
+                                }
+                            }
+
+                        ],
+                        series: [
+
+                            {
+                                name: '存储使用量',
+                                type: 'bar',
+                                data: finalUsedArray,
+                                yAxisIndex: 0
+                            },
+                            {
+                                name: '存储总量',
+                                type: 'line',
+                                data: totalUsedArray,
+                                yAxisIndex: 0
+                            }
+                        ]
+                    };
+
+                    // 使用刚指定的配置项和数据显示图表。
+                    target_chart.setOption(option);
+
+                }
+            }
+        });
+    }
+
+    function showAdded() {
+        $("#all_added").hide();
+        var stime = $('#st').datebox('getValue');
+        var etime = $('#et').datebox('getValue');
+        if (stime == "" || etime == "") {
+            alert("hehe,添下日期亲");
+            return;
+        }
+        var stimestamp = $.fn.datebox.defaults.parser(stime).getTime();
+        var etimestamp = $.fn.datebox.defaults.parser(etime).getTime();
+        var dataurl = url + "?" + "st=" + stimestamp + "&et=" + etimestamp;
+        var timestampArray = [];
+        var date = new Date();
+        for (var i = stimestamp; i <= etimestamp; i = i + 86400000) {
+            date.setTime(i);
+            timestampArray.push(date.toLocaleDateString());
+        }
+
+        $.ajax({
+            url: dataurl,
+            type: 'get',
+            success: function (data) {
+                $("#buttonhide").show();
+                $("#buttonshow").show();
+                var JSON = $.parseJSON(data);
+                for (var node_id in area_map) {
+                    $("#" + node_id).show();
+                    $("#button" + node_id).show();
+                    var area_name = area_map[node_id];
+                    var nodeInfoJSON = JSON[node_id];
+                    var addedArray = [];
+                    var resultJSONArray = nodeInfoJSON["resultSet"];
+                    for (var index in resultJSONArray) {
+                        var resultJSON = resultJSONArray[index];
+                        var repNum = resultJSON["repNum"];
+                        if (repNum == 0) {
+                            addedArray.push(0);
+                        }
+                        else {
+                            addedArray.push(resultJSON["added"] / repNum);
+                        }
+                    }
+
+                    var max_added;
+                    var internal_max_added;
+                    var cpArray = addedArray.concat();
+                    cpArray.sort(function (a, b) {
+                        return b - a;
+                    })
+                    var max_added_ratio = cpArray [0] / 500 / 1000 / 1000 / 1000;
+                    if (Math.floor(max_added_ratio) == 0) {
+                        max_added = 500 * 1000 * 1000 * 1000;
+                        internal_max_added = 100 * 1000 * 1000 * 1000;
+                    }
+                    else {
+                        var max_added_ratio2 = Math.ceil(max_added_ratio);
+                        internal_max_added = max_added_ratio2 * 200 * 1000 * 1000 * 1000;
+                        max_added = internal_max_added * 5;
+                    }
+
+                    var target_chart = echarts.init(document.getElementById(node_id));
+                    // 指定图表的配置项和数据
+                    var option = {
+                        title: {
+                            text: area_name
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data: ['实际数据增长量']
+                        },
+                        xAxis: {
+                            type: 'category',
+                            data: timestampArray
+                        },
+                        yAxis: [
+                            {
+                                type: 'value',
+                                name: '增量',
+                                min: 0,
+                                max: Math.floor(max_added),
+                                internal: internal_max_added,
+                                axisLabel: {
+                                    formatter: function (value) {
+                                        var fmtValue = value / 1000 / 1000 / 1000;
+                                        return Math.floor(fmtValue) + "GB";
+                                    }
+                                }
+                            }
+
+                        ],
+                        series: [
+                            {
+                                name: '当天增长量',
+                                type: 'bar',
+                                data: addedArray,
+                                yAxisIndex: 0
+                            }
+                        ]
+                    };
+
+                    // 使用刚指定的配置项和数据显示图表。
+                    target_chart.setOption(option);
+
+                }
+            }
+        });
+    }
+
+    function showAll() {
+
+        $("#buttonhide").hide();
+        $("#buttonshow").hide();
+        var stime = $('#st').datebox('getValue');
+        var etime = $('#et').datebox('getValue');
+        if (stime == "" || etime == "") {
+            alert("hehe,添下日期亲");
+            return;
+        }
+        var stimestamp = $.fn.datebox.defaults.parser(stime).getTime();
+        var etimestamp = $.fn.datebox.defaults.parser(etime).getTime();
+        var dataurl = url + "?" + "st=" + stimestamp + "&et=" + etimestamp;
+        var timestampArray = [];
+        var date = new Date();
+        for (var i = stimestamp; i <= etimestamp; i = i + 86400000) {
+            date.setTime(i);
+            timestampArray.push(date.toLocaleDateString());
+        }
+
+        // console.log(dataurl);
+
+        $.ajax({
+            url: dataurl,
+            type: 'get',
+            success: function (data) {
+                $("#all_added").show();
+                // console.log(data);
+                var JSON = $.parseJSON(data);
+                var addedArray = [];
+                var first_flag = 0;
+                var areaAddedArray = [];
+                var areaNameArray = [];
+                for (var node_id in area_map) {
+                    $("#" + node_id).hide();
+                    $("#button" + node_id).hide();
+                    var nodeInfoJSON = JSON[node_id];
+                    var resultJSONArray = nodeInfoJSON["resultSet"];
+                    var areaSum = 0;
+                    for (var index in resultJSONArray) {
+                        var resultJSON = resultJSONArray[index];
+                        var repNum = resultJSON["repNum"];
+                        if (repNum != 0) {
+                            areaSum += (resultJSON["added"] / repNum);
+                        }
+                        if (first_flag == 0) {
+                            if (repNum == 0) {
+                                addedArray.push(0);
+                            }
+                            else {
+                                addedArray.push(resultJSON["added"] / repNum);
+                            }
+                        }
+                        else {
+                            if (repNum == 0) {
+                                addedArray[index] += 0;
+                            }
+                            else {
+                                addedArray[index] += (resultJSON["added"] / repNum);
+                            }
+                        }
+                    }
+                    var json = {value: areaSum, name: area_map[node_id]};
+                    areaAddedArray.push(json);
+                    areaNameArray.push(area_map[node_id]);
+                    first_flag++;
+                }
+
+                var max_added;
+                var internal_max_added;
+                var cpArray = addedArray.concat();
+                cpArray.sort(function (a, b) {
+                    return b - a;
+                })
+                var max_added_ratio = cpArray [0] / 500 / 1000 / 1000 / 1000;
+                if (Math.floor(max_added_ratio) == 0) {
+                    max_added = 500 * 1000 * 1000 * 1000;
+                    internal_max_added = 100 * 1000 * 1000 * 1000;
+                }
+                else {
+                    var max_added_ratio2 = Math.ceil(max_added_ratio);
+                    internal_max_added = max_added_ratio2 * 100 * 1000 * 1000 * 1000;
+                    max_added = internal_max_added * 8;
+                }
+
+                var target_chart = echarts.init(document.getElementById("added_bar"));
+                var target_piechart = echarts.init(document.getElementById("added_pie"));
+                // 指定图表的配置项和数据
+                var option = {
+                    title: {
+                        text: "全部集群当天实际增长量"
+                    },
+                    tooltip: {
+                        trigger: 'axis'
+                    },
+                    legend: {
+                        data: ['增长量']
+                    },
+                    xAxis: {
+                        type: 'category',
+                        data: timestampArray
+                    },
+                    yAxis: [
+                        {
+                            type: 'value',
+                            name: '当天增量',
+                            min: 0,
+                            max: Math.floor(max_added),
+                            internal: internal_max_added,
+                            axisLabel: {
+                                formatter: function (value) {
+                                    var fmtValue = value / 1000 / 1000 / 1000 / 1000;
+                                    return Math.floor(fmtValue) + "TB";
+                                }
+                            }
+                        }
+
+                    ],
+                    series: [
+                        {
+                            name: '当天增长量',
+                            type: 'bar',
+                            data: addedArray,
+                            yAxisIndex: 0
+                        }
+                    ]
+                };
+
+                // 使用刚指定的配置项和数据显示图表。
+                target_chart.setOption(option);
+
+                // 指定图表的配置项和数据
+                var option_pie = {
+                    title: {
+                        text: "选定日期范围内增长量分布情况",
+                        x: "center"
+                    },
+                    tooltip: {
+                        trigger: 'item',
+                        //formatter: "{a} <br/>{b} : {c} ({d}%)"
+                        formatter: function (params) {
+                            var valueG = params.value / 1024 / 1024 / 1024;
+                            var valueT = valueG / 1024;
+                            if (Math.floor(valueT) == 0) {
+                                return params.name + '<br/>' + params.seriesName + " : " + valueG.toFixed(2) + "GB" + " (" + params.percent + "%)";
+                            }
+                            return params.name + '<br/>' + params.seriesName + " : " + valueT.toFixed(2) + "TB" + " (" + params.percent + "%)";
+                        }
+                    },
+                    legend: {
+                        orient: 'vertical',
+                        left: 'left',
+                        data: areaNameArray
+                    },
+                    series: [
+                        {
+                            name: '总增长量',
+                            type: 'pie',
+                            data: areaAddedArray,
+                            radius: '80%',
+                            center: ['50%', '60%'],
+                            itemStyle: {
+                                emphasis: {
+                                    shadowBlur: 100,
+                                    shadowOffsetX: 10,
+                                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                                }
+                            }
+                        }
+                    ]
+                };
+
+                target_piechart.setOption(option_pie);
+            }
+        });
+    }
+
+
+    //以下为DateBox检测
+    $.extend($.fn.validatebox.defaults.rules, {
+        dateValid: {
+            validator: function (value, param) {
+                //参数value为当前文本框的值,也就是et
+                var startTime = $(param[0]).datetimebox('getValue');//获取起始时间的值
+                var start = $.fn.datebox.defaults.parser(startTime);
+                var end = $.fn.datebox.defaults.parser(value);
+                var now = new Date();
+                var varify = (end > start);
+                if (varify) {
+                    var x = now.getDate() - end.getDate();
+                    varify = (x != 0);
+                    return varify;
+                }
+                return varify;
+            },
+            message: '结束时间有误'
+        },
+
+        beyondValid: {
+            validator: function (value, param) {
+                var start = $.fn.datebox.defaults.parser(value);
+                var now = new Date();
+                var beyondvarify = (now >= start);
+                return beyondvarify;
+            },
+            message: '开始时间不能大于等于今天'
+        }
+
+
+    });
+</script>
+
+
+</body>
+</html>

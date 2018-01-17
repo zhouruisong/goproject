@@ -1,0 +1,6 @@
+{
+    "log_path": "/usr/local/sandai/storage_center/logs",
+    "mysql_dsn": "root:123456@tcp(localhost:3306)/storage_center", 
+    "listen_port": 3000,
+    "interval": 2
+}

@@ -1,0 +1,16 @@
+{
+    "role":1,
+    "log_path": "/usr/local/sandai/upfile/logs",
+    "mysql_dsn": "root:psd-9898w@tcp(localhost:3306)/live_master",
+    "listen_port": 3000,
+    "tracker_server": ["10.1.3.175:22122"],
+    "fdfs_min_connection_count": 20,
+    "fdfs_max_connection_count": 50,
+    "tair_client": "127.0.0.1:28080",
+    "tair_server": ["10.1.3.175:5198","10.1.3.176:5198"],
+    "cusume_num": 20,
+    "upfile_srv_ip": "61.158.133.224:3000",
+    "upmachine": "61.158.133.224:10090",
+    "cacheip": "180.101.140.125:80",
+    "callback": "127.0.0.1:801"
+}

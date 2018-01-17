@@ -1,0 +1,9 @@
+[upload]
+ip = 10.180.92.51
+port = 27017
+username = uts 
+password = u.l7a@bj
+table = c_uploadserver
+[login]
+username = uts
+password = uts
