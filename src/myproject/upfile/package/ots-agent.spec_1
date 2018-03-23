@@ -1,0 +1,45 @@
+Name:		ots-agent
+Version:	%{ver}
+Release:	%{rel}%{?dist}
+Summary:    server config agent for ots
+
+Group:          OneThing-OTS
+License:        COPYRIGHT
+URL:            http://you.guess
+Source0:	 %{name}-%{version}-%{rel}.tar.gz
+BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
+
+#BuildRequires:
+#Requires:
+
+%description
+hello ots
+
+%prep
+%setup -q -n %{name}-%{version}-%{rel}
+
+%build
+go build -o upfile /code/myselfgo/src/myproject/upfile/src/main.go
+
+%install
+#rm -rf %{buildroot}
+#install -D ots-agent %{buildroot}/usr/local/sandai/ots-agent/ots-agent
+#install -D agent.conf %{buildroot}/usr/local/sandai/ots-agent/agent.conf
+
+
+%clean
+#rm -rf %{buildroot}
+
+%files
+%defattr(-,root,root,-)
+/usr/local/sandai/ots-agent/ots-agent
+%config(noreplace) /usr/local/sandai/ots-agent/agent.conf
+
+%doc
+
+%define __debug_install_post   \
+   %{_rpmconfigdir}/find-debuginfo.sh %{?_find_debuginfo_opts} "%{_builddir}/%{?buildsubdir}"\
+%{nil}
+
+%changelog
+

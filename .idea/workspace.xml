@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f46cd36b-d549-42eb-8e78-1562426873ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/github.com/Sirupsen/logrus.a" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/Sirupsen/logrus.a" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/github.com/codegangsta/inject.a" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/codegangsta/inject.a" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/github.com/go-martini/martini.a" afterPath="$PROJECT_DIR$/pkg/linux_amd64/github.com/go-martini/martini.a" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/context.a" afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/net/context.a" />
+      <change beforePath="$PROJECT_DIR$/src/cluster_backup_bak/src/fdfs_client" afterPath="$PROJECT_DIR$/src/cluster_backup_bak/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/2tvenom/myreplication" afterPath="$PROJECT_DIR$/src/github.com/2tvenom/myreplication" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/Sirupsen.zip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/Sirupsen/logrus" afterPath="$PROJECT_DIR$/src/github.com/Sirupsen/logrus" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/siddontang/go-mysql" afterPath="$PROJECT_DIR$/src/github.com/siddontang/go-mysql" />
+      <change beforePath="$PROJECT_DIR$/src/golang.org" afterPath="$PROJECT_DIR$/src/golang.org" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/CHANGELOG-3.0.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/CONTRIBUTORS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/ISSUE_TEMPLATE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff/backoff.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff/backoff_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff/retry.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff/retry_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/backoff_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_delete_request.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_delete_request_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_index_request.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_index_request_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_processor.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_processor_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_request.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_update_request.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/bulk_update_request_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/canonicalize.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/canonicalize_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/clear_scroll.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/clear_scroll_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/client.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/client_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster-test/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster-test/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster-test/cluster-test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster_health.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster_health_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster_state.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster_state_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster_stats.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/cluster_stats_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/config/elasticsearch.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/config/logging.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/connection.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/count.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/count_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/decoder.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/decoder_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/delete.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/delete_by_query.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/delete_by_query_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/delete_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/delete_template_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/delete_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/doc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/errors.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/errors_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/example_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/exists.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/exists_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/explain.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/explain_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/fetch_source_context.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/fetch_source_context_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/field_stats.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/field_stats_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/geo_point.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/geo_point_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/get.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/get_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/get_template_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/get_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/highlight.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/highlight_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/index.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/index_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_analyze.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_analyze_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_close.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_close_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_create.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_create_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_delete.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_delete_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_delete_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_delete_warmer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_delete_warmer_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_exists.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_exists_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_exists_template_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_exists_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_exists_type.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_exists_type_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_flush.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_flush_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_forcemerge.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_forcemerge_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_aliases.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_aliases_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_mapping.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_mapping_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_settings.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_settings_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_template_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_warmer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_get_warmer_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_open.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_open_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_alias.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_alias_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_mapping.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_mapping_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_settings.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_settings_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_warmer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_put_warmer_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_refresh.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_refresh_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_stats.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/indices_stats_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/inner_hit.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/inner_hit_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/logger.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/mget.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/mget_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/msearch.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/msearch_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/mtermvectors.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/mtermvectors_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/nodes_info.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/nodes_info_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/nodes_stats.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/nodes_stats_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/optimize.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/optimize_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/percolate.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/percolate_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/ping.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/ping_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/plugins.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/plugins_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/query.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/reindex.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/reindex_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/reindexer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/reindexer_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/request.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/request_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/rescore.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/rescorer.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/response.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/retrier.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/retrier_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/run-es.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/scan.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/scan_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/script.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/script_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/scroll.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/scroll_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_children.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_children_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_date_histogram.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_date_histogram_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_date_range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_date_range_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_filter.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_filter_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_filters.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_filters_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_geo_distance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_geo_distance_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_geohash_grid.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_geohash_grid_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_global.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_global_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_histogram.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_histogram_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_missing.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_missing_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_nested.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_nested_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_range_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_reverse_nested.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_reverse_nested_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_sampler.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_sampler_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_significant_terms.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_significant_terms_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_terms.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_bucket_terms_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_avg.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_avg_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_cardinality.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_cardinality_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_extended_stats.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_extended_stats_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_geo_bounds.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_geo_bounds_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_max.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_max_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_min.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_min_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_percentile_ranks.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_percentile_ranks_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_percentiles.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_percentiles_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_stats.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_stats_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_sum.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_sum_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_top_hits.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_top_hits_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_value_count.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_metrics_value_count_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_avg_bucket.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_avg_bucket_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_bucket_script.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_bucket_script_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_bucket_selector.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_bucket_selector_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_cumulative_sum.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_cumulative_sum_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_derivative.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_derivative_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_max_bucket.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_max_bucket_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_min_bucket.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_min_bucket_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_mov_avg.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_mov_avg_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_serial_diff.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_serial_diff_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_stats_bucket.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_stats_bucket_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_sum_bucket.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_sum_bucket_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_pipeline_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_aggs_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_bool.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_bool_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_boosting.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_boosting_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_common_terms.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_common_terms_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_constant_score.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_constant_score_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_dis_max.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_dis_max_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_exists.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_exists_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_fsq.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_fsq_score_funcs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_fsq_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_fuzzy.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_fuzzy_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_geo_bounding_box.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_geo_bounding_box_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_geo_distance.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_geo_distance_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_geo_polygon.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_geo_polygon_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_has_child.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_has_child_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_has_parent.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_has_parent_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_ids.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_ids_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_indices.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_indices_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_match.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_match_all.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_match_all_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_match_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_missing.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_missing_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_more_like_this.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_more_like_this_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_multi_match.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_multi_match_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_nested.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_nested_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_not.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_not_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_prefix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_prefix_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_query_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_query_string_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_range.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_range_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_raw_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_raw_string_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_regexp.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_regexp_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_script.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_script_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_simple_query_string.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_simple_query_string_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_template_query.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_template_query_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_term.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_term_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_terms.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_terms_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_type.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_type_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_wildcard.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_queries_wildcard_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_request.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_request_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_source.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_source_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_suggester_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_template.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_templates_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/search_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/setup_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/sort.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/sort_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggest.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggest_field.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggest_field_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggest_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_completion.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_completion_fuzzy.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_completion_fuzzy_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_completion_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_context.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_context_category.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_context_category_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_context_geo.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_context_geo_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_phrase.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_phrase_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_term.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/suggester_term_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/tasks_cancel.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/tasks_cancel_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/tasks_list.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/tasks_list_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/termvectors.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/termvectors_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/update.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/update_by_query.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/update_by_query_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/update_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/uritemplates/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/uritemplates/uritemplates.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/uritemplates/utils.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/olivere/elastic.v3/uritemplates/utils_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/binlogsync/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/binlogsync/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/binlogsync_old/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/binlogsync_old/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/cluster/src/fdfs_agent/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/cluster/src/fdfs_agent/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/cluster_bak/fdfs_agent/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/cluster_bak/fdfs_agent/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/cluster_bak/protocal/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/cluster_bak/protocal/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/grouptest/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/grouptest/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/mysql_sync/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/mysql_sync/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/build.sh" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/build.sh" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/c/lib/libtair_clib.so" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/c/lib/libtair_clib.so" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/c/make.sh" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/c/make.sh" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/src/logger/logger.go" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/src/logger/logger.go" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/api.go" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/api.go" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/service.go" afterPath="$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/service.go" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/upfile/bin/upfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/upfile/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/upfile/src/fdfs_client" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/upfile/upfile.tar.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/myproject/uploadMachine/src/fdfs_client" afterPath="$PROJECT_DIR$/src/myproject/uploadMachine/src/fdfs_client" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="tair_clib.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/api.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="56" column="62" lean-forward="true" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>handlerChan</find>
+      <find>SendTairPut_ex</find>
+      <find>handlerDefaultSize</find>
+      <find>tair_client_api</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>tair_client_impl</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/build.sh" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/src/main.go" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/conf/conf.json" />
+        <option value="$PROJECT_DIR$/src/myproject/rpc/src/main.go" />
+        <option value="$PROJECT_DIR$/src/myproject/rpc/Makefile" />
+        <option value="$PROJECT_DIR$/src/myproject/rpcx/src/main.go" />
+        <option value="$PROJECT_DIR$/src/github.com/Sirupsen/logrus/formatter.go" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/src/logger/logger.go" />
+        <option value="$PROJECT_DIR$/src/myproject/rpcx_client/src/main.go" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/service.go" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/api.go" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc" />
+        <option value="$PROJECT_DIR$/src/myproject/tair_http_server/c/make.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="792" />
+    <option name="height" value="547" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfgo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcx_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myselfgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="myproject" type="462c0819:PsiDirectoryNode" />
+              <item name="rpcx_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="builtin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="encoding" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="encoding" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myselfgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.8" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="myproject" type="cbb8eebc:String" user="myproject" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="myproject" type="cbb8eebc:String" user="myproject" />
+              <item name="tair_http_server" type="cbb8eebc:String" user="tair_http_server" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="myproject" type="cbb8eebc:String" user="myproject" />
+              <item name="tair_http_server" type="cbb8eebc:String" user="tair_http_server" />
+              <item name="c" type="cbb8eebc:String" user="c" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="myproject" type="cbb8eebc:String" user="myproject" />
+              <item name="tair_http_server" type="cbb8eebc:String" user="tair_http_server" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="myselfgo" type="cbb8eebc:String" user="myselfgo" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="myproject" type="cbb8eebc:String" user="myproject" />
+              <item name="tair_http_server" type="cbb8eebc:String" user="tair_http_server" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="tair" type="cbb8eebc:String" user="tair" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1924" height="1034" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14787234" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" x="716" y="91" width="488" height="898" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32508436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/tair.log" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/src/cluster_sync/cluster_cache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/src/cluster_sync/cluster_sync.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/go-martini/martini/martini.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="78" column="39" lean-forward="false" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/bin/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/conf/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/encoding/json/encode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="158" column="5" lean-forward="false" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40467">
+          <caret line="1950" column="5" lean-forward="false" selection-start-line="1950" selection-start-column="5" selection-end-line="1950" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/src/tair/tair_handle.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/upfile/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="934">
+          <caret line="150" column="18" lean-forward="false" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="133" column="5" lean-forward="false" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/encoding/json/decode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/format.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="73" column="15" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/conf/conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="39" lean-forward="false" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/storage_center/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/rpc/src/main.go" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/rpc/Makefile" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/grouptest/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/rpcx/Makefile" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/rpcx/src/main.go" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/rpcx_client/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/Sirupsen/logrus/logger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/common/file_rotator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/Sirupsen/logrus/formatter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/Sirupsen/logrus/classic_formatter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/common/classic_formatter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/common/path_util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/logger/logger.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/smallnest/rpcx/client/xclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="84" column="15" lean-forward="false" selection-start-line="84" selection-start-column="15" selection-end-line="84" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/smallnest/rpcx/client/oneclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/smallnest/rpcx/client/mode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/rpcx_client/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc_1" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/include/tair_client_capi.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_cmap.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/include/tair_client_api.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc1" />
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/make.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="144" lean-forward="false" selection-start-line="1" selection-start-column="144" selection-end-line="1" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/include/duplicate_manager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/c/tair_clib.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myproject/tair_http_server/src/tair/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="56" column="62" lean-forward="true" selection-start-line="56" selection-start-column="62" selection-end-line="56" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

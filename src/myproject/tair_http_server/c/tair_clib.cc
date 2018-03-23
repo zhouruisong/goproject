@@ -17,7 +17,7 @@ void *tair_create(const char *master, const char *slave,
         const char *group)
 {
     tair::tair_client_api *client = new tair::tair_client_api;
-    bool rc = client->startup(master, slave, group);
+    bool rc = client->startup(master, NULL, group);
     return rc ? (void *)client : NULL;
 }
 

@@ -15,7 +15,7 @@ import (
 	"unsafe"
 )
 
-var handlerDefaultSize int = 64
+//var handlerDefaultSize int = 32
 var handlerChan chan unsafe.Pointer
 
 var once sync.Once
@@ -31,12 +31,13 @@ func Init() error {
 	defer C.free(unsafe.Pointer(cgroup))
 
 	handlerSize, _ := strconv.Atoi(Configs["handlerSize"])
-	if handlerSize < handlerDefaultSize {
-		handlerSize = handlerDefaultSize
-	}
+	//if handlerSize < handlerDefaultSize {
+	//	handlerSize = handlerDefaultSize
+	//}
 	handlerChan = make(chan unsafe.Pointer, handlerSize)
 
 	for i := 0; i != handlerSize; i++ {
+		//handler := unsafe.Pointer(C.tair_create(cmaster, cslave, cgroup))
 		handler := unsafe.Pointer(C.tair_create(cmaster, cslave, cgroup))
 		if handler == unsafe.Pointer(nil) {
 			return errors.New("create tair handler err\n")
@@ -215,7 +216,7 @@ func prefix_get(area int, pkey string, skey string) (string, error) {
 
 	if unsafe.Pointer(cval) == nil || vlen == C.size_t(0) {
 		return "", errors.New("prefix_get tair pkey:" + pkey + ", skey:" +
-			skey + ", err:" + C.GoString(errmsg) + "\n")
+			skey + ", err:" + C.GoString(errmsg))
 	}
 	return C.GoStringN(cval, C.int(vlen)), nil
 }

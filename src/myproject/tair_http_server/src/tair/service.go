@@ -140,43 +140,61 @@ func Tair(w http.ResponseWriter, r *http.Request) {
 	if cmd == "pput" {
 		pkey = req_put.Keys[0].Prefix
 		skey = req_put.Keys[0].Key
+		value := req_put.Keys[0].Value
 
-		keys := SendTairPut_ex{
-			Prefix:     pkey,
-			Key:        skey,
-			Value:      req_put.Keys[0].Value,
-			CreateTime: strconv.Itoa(req_put.Keys[0].CreateTime),
-			ExpireTime: strconv.Itoa(req_put.Keys[0].ExpireTime),
-		}
+		//组合成v|c|e的形式
+		createtime := fmt.Sprintf("%d",req_put.Keys[0].CreateTime)
+		expiretime := fmt.Sprintf("%d",req_put.Keys[0].ExpireTime)
+		val = fmt.Sprintf("%s|%s|%s", value, createtime, expiretime)
 
-		var keysList []SendTairPut_ex
-		keysList = append(keysList, keys)
-		msg := SednTairPutBody{
-			Keys: keysList,
-		}
-
-		buff, err := json.Marshal(msg)
-		if err != nil {
-			Logger.Errorf("Marshal failed err:%v, msg:%v", err, msg)
-			http.Error(w, err.Error(), http.StatusInternalServerError)
-		}
-
-		val = string(buff)
 		if err := prefix_put(area, pkey, skey, val, 0); err != nil {
-			Logger.Errorf("prefix_put error:%+v", err)
+			Logger.Errorf("error:%+v", err)
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		} else {
-			Logger.Infof("prefix_put ok,val:%v", val)
+			Logger.Infof("prefix_put ok,pkey:%v,skey:%v,val:%v", pkey,skey,val)
 			http.Error(w, "", http.StatusOK)
 		}
 	} else if cmd == "pget" {
 		pkey = req_put.Keys[0].Prefix
 		skey = req_put.Keys[0].Key
+
 		if val, err = prefix_get(area, pkey, skey); err != nil {
-			Logger.Errorf("prefix_put error:%+v", err)
+			Logger.Errorf("error:%+v", err)
+			http.Error(w, "", http.StatusOK)
+		} else {
+			//使用|进行分割
+			v := strings.Split(val, "|")
+			keys := SendTairPut_ex{
+				Prefix:     pkey,
+				Key:        skey,
+				Value:      v[0],
+				CreateTime: v[1],
+				ExpireTime: v[2],
+			}
+
+			var keysList []SendTairPut_ex
+			keysList = append(keysList, keys)
+			msg := SednTairPutBody{
+				Keys: keysList,
+			}
+			buff, err := json.Marshal(msg)
+			if err != nil {
+				Logger.Errorf("Marshal failed err:%v, msg:%v", err, msg)
+				http.Error(w, err.Error(), http.StatusInternalServerError)
+			}
+			val = string(buff)
+
+			Logger.Infof("prefix_get ok,pkey:%v,skey:%v,val:%v", pkey,skey,val)
+			http.Error(w, val, http.StatusOK)
+		}
+	} else if cmd == "premove" {
+		pkey = req_put.Keys[0].Prefix
+		skey = req_put.Keys[0].Key
+		if err = prefix_remove(area, pkey, skey); err != nil {
+			Logger.Errorf("error:%+v", err)
 			http.Error(w, err.Error(), http.StatusInternalServerError)
 		} else {
-			Logger.Infof("prefix_get ok,val:%v", val)
+			Logger.Infof("prefix_remove ok,pkey:%v,skey:%v", pkey,skey)
 			http.Error(w, val, http.StatusOK)
 		}
 	} else {
